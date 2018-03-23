@@ -1,4 +1,4 @@
-# 微信小程序 wepyjs 第三方 消息提示插件
+# 微信小程序 wepyjs 第三方 点赞动画插件
 
 ### 效果：
 ![mark](http://oyz3pjs26.bkt.clouddn.com/blog/180323/8fBFEJD3c8.gif)
