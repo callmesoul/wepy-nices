@@ -1,0 +1,30 @@
+@import "./animate.min.scss";
+
+
+.VueStar{
+  position: relative;
+  display: inline-block;
+}
+.VueStar__ground {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  left:50%;
+  top:50%;
+  margin-left:-50px;
+  margin-top:-50px;
+  background-position: 0 0px;
+  -webkit-transition: background-position 1s steps(25);
+  transition: background-position 1s steps(25);
+  -webkit-transition-duration: 0s;
+  transition-duration: 0s;
+  &--active{
+    transition-duration: 1s;
+    background-position: -2500px 0px;
+  }
+
+}
+.VueStar__icon {
+  z-index: 888;
+  position: relative;
+}
