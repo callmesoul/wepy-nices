@@ -18,7 +18,7 @@ npm install wepy-nices --save
 ### 引入组件
 ```javascript
 <template>
-    <view catchtao="dosomethings">
+    <view catchtap="dosomethings">
         <nices :active.sync="active" :params.sync="params"></nices>
     </view>
 </template>
